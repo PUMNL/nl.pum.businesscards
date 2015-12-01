@@ -107,12 +107,10 @@ class CRM_Businesscards_Report_Form_RequestForPrinter extends CRM_Report_Form {
     $this->_columnHeaders['09_PrivateAddress'] = array('title' => '09_PrivateAddress');
     $this->_columnHeaders['10_Priveadres'] = array('title' => '10_Priveadres');
     $this->_columnHeaders['skype'] = array('title' => '11_Privecontactveld1');
-    $this->_columnHeaders['12_Privecontactveld2'] = array('title' => '12_Privecontactveld2');
+    $this->_columnHeaders['twitter'] = array('title' => '12_Privecontactveld2');
     $this->_columnHeaders['13_Privecontactveld3'] = array('title' => '13_Privecontactveld3');
     $this->_columnHeaders['14_Privecontactveld4'] = array('title' => '14_Privecontactveld4');
     $this->_columnHeaders['15_Privecontactveld5'] = array('title' => '15_Privecontactveld5');
-
-    $this->_columnHeaders['twitter'] = array('title' => 'twitter');
 
     $this->_columnHeaders['address_supplemental_address_1'] = array('no_display' => true);
     $this->_columnHeaders['address_postal_code'] = array('no_display' => true);
